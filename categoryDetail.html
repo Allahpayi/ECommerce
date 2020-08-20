@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BERSHKA</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header w-90 m-auto">
+            <a href="index.html" class="logo">BERSHKA</a>
+            <div class="search">
+                <form action="404.html">
+                    <input type="text" placeholder="Axtarış...">
+                    <button type="submit" class="button">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+            </div>
+            <ul>
+                <li class="heart"><a href="#"><i class="fa fa-heart"></i></a>
+                    <div class="content">
+                        <p>Sevlimlilər siyahısı boşdur.</p>
+                    </div>
+                </li>
+                <li><a href="basket.html"><i class="fa fa-shopping-bag"></i></a></li>
+                <li class="user"><a href="#"><i class="fa fa-user-circle"></i></a>
+                    <div class="profile">
+                        <a class="login" href="login.html">Daxil ol</a>
+                        <a class="register" href="register.html">Qeyd ol</a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+        <div class="search-mobile w-90 m-auto">
+            <form action="404.html">
+                <input type="text" placeholder="Axtarış...">
+                <button type="submit" class="button">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+        </div>
+    </header>
+    <main>
+
+        <section class="w-90 m-auto">
+            <div class="dropdowns">
+                <div id="category">Kategoryalar <i class="fa fa-chevron-down"></i></div>
+                <div id="subcategory">Alt Kategoryalar <i class="fa fa-chevron-down"></i></div>
+                <div id="filter">Filterlə <i class="fa fa-chevron-down"></i></div>
+            </div>
+            <div class="category">
+                <ul>
+                    <li>
+                        <a href="index.html">Əsas səhifə</a>
+                    </li>
+                    <li>
+                        <a href="categoryDetail.html">Kişi geyimləri</a>
+                    </li>
+                    <li>
+                        <a href="categoryDetail.html">Qadın geyimləri</a>
+                    </li>
+                    <li>
+                        <a href="categoryDetail.html">Uşaq geyimləri</a>
+                    </li>
+                    <li>
+                        <a href="categoryDetail.html">İdman məhsulları</a>
+                    </li>
+                    <li>
+                        <a href="categoryDetail.html">Aksesuarlar</a>
+                    </li>
+                    <li>
+                        <a href="categoryDetail.html">Gözəllik və sağlamlıq</a>
+                    </li>
+                    <li>
+                        <a href="categoryDetail.html">Digər</a>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+        <!--********************** Products *********************** -->
+        <section class="m-auto w-90">
+            <div class="breadcrumb">
+                <i class="fa fa-home"> <a href="index.html">Əsas Səhifə</a> / <a href="categoryDetail.html">Kişi
+                        Geyimləri</a></i>
+            </div>
+            <div class="category-detail-container">
+                <div class="categoryList">
+                    <ul class="subcategory">
+                        <li> <i class="fa fa-chevron-right"></i> <a href="categoryDetail.html"> Köynəklər</a></li>
+                        <li> <i class="fa fa-chevron-right"></i> <a href="categoryDetail.html"> Şalvarlar</a></li>
+                        <li> <i class="fa fa-chevron-right"></i> <a href="categoryDetail.html"> Cins</a></li>
+                        <li> <i class="fa fa-chevron-right"></i> <a href="categoryDetail.html"> Pencək və kostyumlar</a>
+                        </li>
+                        <li> <i class="fa fa-chevron-right"></i> <a href="categoryDetail.html"> Sviterlər və
+                                vodolazkalar</a></li>
+                        <li> <i class="fa fa-chevron-right"></i> <a href="categoryDetail.html"> Futbolka</a></li>
+                        <li> <i class="fa fa-chevron-right"></i> <a href="categoryDetail.html"> İdman kostyumları</a>
+                        </li>
+                        <li> <i class="fa fa-chevron-right"></i> <a href="categoryDetail.html"> Papaqlar və şərflər</a>
+                        </li>
+                        <li> <i class="fa fa-chevron-right"></i> <a href="categoryDetail.html"> Şortlar</a></li>
+                        <li> <i class="fa fa-chevron-right"></i> <a href="categoryDetail.html"> Jemper və
+                                kardiqanlar</a></li>
+                        <li> <i class="fa fa-chevron-right"></i> <a href="categoryDetail.html"> Çimərlik geyimləri</a>
+                        </li>
+                        <li> <i class="fa fa-chevron-right"></i> <a href="categoryDetail.html"> Xüsusi geyim</a></li>
+                    </ul>
+                </div>
+                <div class="praducts">
+                    <div class="filter">
+                        <form action="#">
+                            <select>
+                                <option value="1">İstehsalçı</option>
+                                <option value="2">Adidas</option>
+                                <option value="3">Ananas</option>
+                                <option value="5">Calamar</option>
+                                <option value="6">Puma</option>
+                                <option value="7">Reebok</option>
+                                <option value="8">DS Damat</option>
+                                <option value="9">My VMR tekstil</option>
+                                <option value="10">Avva</option>
+                            </select>
+                            <select>
+                                <option value="1">Növ</option>
+                                <option value="2">Dəst</option>
+                                <option value="3">Futbol corabı</option>
+                                <option value="4">Futbol üçün</option>
+                                <option value="5">İdman üçün</option>
+                                <option value="6">İdman şalvarı</option>
+                                <option value="7">Kofta</option>
+                                <option value="8">Polo</option>
+                                <option value="9">Qolsuz köynək</option>
+                                <option value="10">Qısaqol köynək</option>
+                            </select>
+                            <select>
+                                <option value="1">Fəsil</option>
+                                <option value="2">Payız-qış</option>
+                                <option value="3">Yaz-yay</option>
+                            </select>
+
+                            <select>
+                                <option value="1">Kolleksiya</option>
+                                <option value="2">Motorsport</option>
+                                <option value="3">Lifestyle</option>
+                                <option value="4">Running/Training</option>
+                                <option value="5">Fundamentals</option>
+                                <option value="6">Teamsport</option>
+                                <option value="7">Sportstyle Core</option>
+                                <option value="8">Sportstyle Prime</option>
+                            </select>
+
+                            <select>
+                                <option value="1">Ölçü</option>
+                                <option value="2">XS</option>
+                                <option value="3">S</option>
+                                <option value="4">M</option>
+                                <option value="5">L</option>
+                                <option value="6">XL</option>
+                                <option value="7">XXL </option>
+                                <option value="8">XXXL</option>
+                                <option value="8">4XL</option>
+
+                            </select>
+                            <select>
+                                <option value="1">İstehsalçı ölkə</option>
+                                <option value="2">Almaniya</option>
+                                <option value="3">Azərbaycan</option>
+                                <option value="4">Filippin</option>
+                                <option value="5">İndoneziya</option>
+                                <option value="6">İtaliya</option>
+                                <option value="7">Rusiya</option>
+                                <option value="8">Türkiyə</option>
+                            </select>
+                            <input placeholder="Qiymət min." type="text">
+                            <input placeholder="Qiymət max." type="text">
+                            <button class="btn-filter">Axtar</button>
+                        </form>
+                    </div>
+
+                    <div class="productList">
+                        <div class="card">
+                            <div class="card-overlay">
+                                <img src="./img/product/man/1.jpg" alt="">
+
+                                <div class="overlay">
+                                    <button><i class="fa fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h1>40.99 ₼</h1>
+                                <p><a href="productDetail.html">Qısaqol köynək Puma Sportstyle Prime Iconic</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-overlay">
+                                <img src="./img/product/man/2.jpg" alt="">
+                                <div class="card-new">
+                                    YENİ
+                                </div>
+                                <div class="overlay">
+                                    <button><i class="fa fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h1>22.89 ₼</h1>
+                                <p><a href="productDetail.html">Qısaqol köynək Puma Sportstyle Prime Iconic</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-overlay">
+                                <img src="./img/product/man/3.jpg" alt="">
+                                <div class="overlay">
+                                    <button><i class="fa fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h1>110 ₼</h1>
+                                <p><a href="productDetail.html">Qısaqol köynək Puma Sportstyle Prime Iconic</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-overlay">
+                                <img src="./img/product/man/4.jpg" alt="">
+                                <div class="card-new">
+                                    YENİ
+                                </div>
+                                <div class="overlay">
+                                    <button><i class="fa fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h1>19.99 ₼</h1>
+                                <p><a href="productDetail.html">Qısaqol köynək Puma Sportstyle Prime Iconic</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-overlay">
+                                <img src="./img/product/man/5.jpg" alt="">
+                                <div class="card-new">
+                                    YENİ
+                                </div>
+                                <div class="overlay">
+                                    <button><i class="fa fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h1>65.70 ₼</h1>
+                                <p><a href="productDetail.html">Qısaqol köynək Puma Sportstyle Prime Iconic</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-overlay">
+                                <img src="./img/product/man/6.jpg" alt="">
+                                <div class="overlay">
+                                    <button><i class="fa fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h1>22.89 ₼</h1>
+                                <p><a href="productDetail.html">Qısaqol köynək Puma Sportstyle Prime Iconic</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-overlay">
+                                <img src="./img/product/man/7.jpg" alt="">
+
+                                <div class="overlay">
+                                    <button><i class="fa fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h1>110 ₼</h1>
+                                <p><a href="productDetail.html">Qısaqol köynək Puma Sportstyle Prime Iconic</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-overlay">
+                                <img src="./img/product/man/8.jpg" alt="">
+
+                                <div class="overlay">
+                                    <button><i class="fa fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h1>40.99 ₼</h1>
+                                <p><a href="productDetail.html">Qısaqol köynək Puma Sportstyle Prime Iconic</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-overlay">
+                                <img src="./img/product/man/9.jpg" alt="">
+
+                                <div class="overlay">
+                                    <button><i class="fa fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h1>22.89 ₼</h1>
+                                <p><a href="productDetail.html">Qısaqol köynək Puma Sportstyle Prime Iconic</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-overlay">
+                                <img src="./img/product/man/10.jpg" alt="">
+                                <div class="card-discount">
+                                    <strong>75 %</strong>
+                                    <br>
+                                    ENDİRİM
+                                </div>
+                                <div class="overlay">
+                                    <button><i class="fa fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h1>110 ₼</h1>
+                                <p><a href="productDetail.html">Qısaqol köynək Puma Sportstyle Prime Iconic</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-overlay">
+                                <img src="./img/product/man/11.jpg" alt="">
+                                <div class="overlay">
+                                    <button><i class="fa fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h1>19.99 ₼</h1>
+                                <p><a href="productDetail.html">Qısaqol köynək Puma Sportstyle Prime Iconic</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-overlay">
+                                <img src="./img/product/man/12.jpg" alt="">
+                                <div class="card-discount">
+                                    <strong>28 %</strong>
+                                    <br>
+                                    ENDİRİM
+                                </div>
+                                <div class="overlay">
+                                    <button><i class="fa fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h1>65.70 ₼</h1>
+                                <p><a href="productDetail.html">Qısaqol köynək Puma Sportstyle Prime Iconic</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-overlay">
+                                <img src="./img/product/man/13.jpg" alt="">
+                                <div class="card-discount">
+                                    <strong>25 %</strong>
+                                    <br>
+                                    ENDİRİM
+                                </div>
+                                <div class="overlay">
+                                    <button><i class="fa fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h1>22.89 ₼</h1>
+                                <p><a href="productDetail.html">Qısaqol köynək Puma Sportstyle Prime Iconic</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-overlay">
+                                <img src="./img/product/man/14.jpg" alt="">
+
+                                <div class="overlay">
+                                    <button><i class="fa fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h1>110 ₼</h1>
+                                <p><a href="productDetail.html">Qısaqol köynək Puma Sportstyle Prime Iconic</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-overlay">
+                                <img src="./img/product/man/15.jpg" alt="">
+                                <div class="card-new">
+                                    YENİ
+                                </div>
+                                <div class="overlay">
+                                    <button><i class="fa fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h1>110 ₼</h1>
+                                <p><a href="productDetail.html">Qısaqol köynək Puma Sportstyle Prime Iconic</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-overlay">
+                                <img src="./img/product/man/16.jpg" alt="">
+                                <div class="card-new">
+                                    YENİ
+                                </div>
+                                <div class="overlay">
+                                    <button><i class="fa fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h1>19.99 ₼</h1>
+                                <p><a href="productDetail.html">Qısaqol köynək Puma Sportstyle Prime Iconic</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-overlay">
+                                <img src="./img/product/man/17.jpg" alt="">
+                                <div class="card-new">
+                                    YENİ
+                                </div>
+                                <div class="overlay">
+                                    <button><i class="fa fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h1>65.70 ₼</h1>
+                                <p><a href="productDetail.html">Qısaqol köynək Puma Sportstyle Prime Iconic</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-overlay">
+                                <img src="./img/product/man/18.jpg" alt="">
+                                <div class="overlay">
+                                    <button><i class="fa fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h1>65.70 ₼</h1>
+                                <p><a href="productDetail.html">Qısaqol köynək Puma Sportstyle Prime Iconic</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-overlay">
+                                <img src="./img/product/man/19.jpg" alt="">
+                                <div class="card-discount">
+                                    <strong>25 %</strong>
+                                    <br>
+                                    ENDİRİM
+                                </div>
+                                <div class="overlay">
+                                    <button><i class="fa fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h1>22.89 ₼</h1>
+                                <p><a href="productDetail.html">Qısaqol köynək Puma Sportstyle Prime Iconic</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-overlay">
+                                <img src="./img/product/man/20.jpg" alt="">
+
+                                <div class="overlay">
+                                    <button><i class="fa fa-cart-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h1>110 ₼</h1>
+                                <p><a href="productDetail.html">Qısaqol köynək Puma Sportstyle Prime Iconic</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagination">
+                        <a href="#"><i class="fa fa-chevron-left"></i></a>
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">...</a>
+                        <a href="#">9</a>
+                        <a href="#"><i class="fa fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+        <div class="footer-content w-90 m-auto">
+            <div class="bershka">
+                <h3>Bershka.az</h3>
+                <ul>
+                    <li><a href="404.html">Haqqımızda</a></li>
+                    <li><a href="404.html">Xidmətlər</a></li>
+                    <li><a href="404.html">Tez tez verilən suallar</a></li>
+                </ul>
+            </div>
+            <div class="customers">
+                <h3>Müştərilər</h3>
+                <ul>
+                    <li><a href="404.html">Saytın istifadə şərtləri</a></li>
+                    <li><a href="404.html">Məxfilik haqqında məlumat</a></li>
+                    <li><a href="404.html">İrad və təklifləriniz</a></li>
+                </ul>
+            </div>
+
+            <div class="sosial">
+                <h3>Bizi izlə</h3>
+                <ul>
+                    <li class="facebook"><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                    <li class="instagram"><a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+                    <li class="pinterest"><a href="https://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
+                    <li class="twitter"><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+                <ul class="mobileapp">
+                    <li><a href="https://www.apple.com/ios/app-store/"><img src="./img/app/1.png" alt=""></a></li>
+                    <li><a href="https://play.google.com"><img src="./img/app/2.png" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Əlaqə</h3>
+                <table>
+                    <tr>
+                        <td><i class="fa fa-phone"></i> </td>
+                        <td>*8080</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-map-marker"></i> </td>
+                        <td>Bakı ş. Qara Qarayev pr.</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-map-signs"></i> </td>
+                        <td><a href="404.html">Mağazalarımız</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; <span id="year"></span> Bershka.Az-Bütün hüquqlar qorunur.
+        </div>
+    </footer>
+
+    <script src="./Js/jquery-3.5.1.min.js"></script>
+    <script src="./Js/app.js"></script>
+</body>
+
+</html>
